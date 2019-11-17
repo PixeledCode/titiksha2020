@@ -1,0 +1,480 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  src: url('../fonts/montserrat.woff') format('woff');
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 160%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  background: #fff;
+  color: #fff;
+  font-family: montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.clear {
+  clear: both;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  outline: 0;
+  transition: all 0.1s ease-in;
+}
+
+.btn-transparent {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.btn-transparent:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Separators */
+.separator {
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 5px;
+}
+
+/* 02. FONT FACE ============================================ */
+
+@font-face {
+  font-family: 'norwester';
+  font-display: swap;
+  src: url('../fonts/norwester.eot');
+  src: url('../fonts/norwester.eot?iefix') format('embedded-opentype'),
+    url('../fonts/norwester.ttf');
+  font-weight: normal;
+}
+
+/* 03. team SETTINGS ============================================ */
+
+.bg-blue {
+  background: #2c6ed5;
+}
+
+.bg-red {
+  background: #fa4251;
+}
+
+
+.bg-gra-03 {
+  background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
+  background: -webkit-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: -moz-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: -o-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
+  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+}
+
+#team {
+  padding: 60px 0;
+  background: -webkit-gradient(linear, left bottom, right top, from(#29323c), to(#485563));
+  background: -webkit-linear-gradient(bottom left, #29323c 0%, #485563 100%);
+  background: -moz-linear-gradient(bottom left, #29323c 0%, #485563 100%);
+  background: -o-linear-gradient(bottom left, #29323c 0%, #485563 100%);
+  background: linear-gradient(to top right, #29323c 0%, #485563 100%);
+  text-align: center;
+}
+
+#team p {
+  padding: 20px 0 60px;
+  color: #c3cfe2;
+  font-family: montserrat, sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.2px;
+}
+
+#team h1 {
+  background: #dadee4;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 0 5px;
+  font-family: 'norwester';
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+
+#team h4 {
+  margin-top: -50px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+#team h4 span {
+  display: block;
+  position: relative;
+  left: -40px;
+  top: 10px;
+  font-size: 14px;
+  background: none;
+  padding: 0;
+}
+
+#team img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 50%;
+  border: 9px solid transparent;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
+  transition: all 0.1s ease-in;
+}
+
+#team img:hover {
+  border: 9px solid #333d47;
+  position: relative;
+  z-index: 10;
+  transition: all 0.1s ease-in;
+}
+
+#team span {
+  padding: 8px 20px;
+  position: relative;
+  top: -64px;
+  left: -42px;
+  display: inline-block;
+  background: #2a333c;
+  border-radius: 0 16px 16px 0;
+  font-size: 16px;
+}
+
+/* Member Image Hover Effect */
+.unhover_img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 50%;
+
+}
+
+.hover_img {
+  display: none
+}
+
+.member-profile:hover .unhover_img {
+  display: none;
+}
+
+.member-profile:hover .hover_img {
+  display: block;
+}
+
+.hover_img:hover .hov {
+  visibility: hidden;
+}
+
+.hovi:hover .hov {
+  visibility: hidden;
+}
+
+.try:hover .hov {
+  visibility: hidden;
+}
+
+/* Social Networks Meta */
+#team li {
+  display: inline-block;
+  padding: 0 6px;
+  font-size: 18px;
+}
+
+#team li a {
+  color: #c3cfe2;
+  transition: all 0.1s ease-in;
+}
+
+#team li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.col-md-3:hover h4 {
+  color: #f50136;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Rows Optimization */
+.row2 {
+  display: none;
+}
+
+.row1 .col-md-3,
+.row2 .col-md-3 {
+  padding-bottom: 40px;
+  margin-bottom: 35px;
+  max-height: 339px;
+}
+
+/* Mobile Devices Optimization */
+@media (min-width: 568px) and (max-width: 992px) {
+
+  .row1 .col-md-3,
+  .row2 .col-md-3 {
+    display: inline-block;
+    max-width: 50%;
+  }
+
+  #team img {
+    max-width: 300px;
+  }
+
+}
+
+.col-md-3 i {
+  font-size: 150%;
+}
+
+@media (max-width: 992px) and (min-width: 568px) {
+
+  .row1 .col-md-3,
+  .row2 .col-md-3 {
+    display: inline-block;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11 {
+    float: left;
+  }
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/*  ----------------------------------------------------
+2. HEADER
+-------------------------------------------------------- */
+header {
+  background: linear-gradient(90deg, #39434f 0%, #465461 100%);
+  ;
+  top: 0;
+  min-height: 50px;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+header .menu {
+  position: relative;
+}
+
+header .logo {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .logo img {
+  float: left;
+  max-width: 200px;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 769px) {
+  header .logo img {
+    width: 150px;
+  }
+}
+
+header ul.menu li a.nav-link {
+  padding: 20px 12px !important;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 770px) {
+  header ul.menu li a.nav-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1025px) {
+  header ul.menu li a.nav-link {
+    font-size: 15px;
+  }
+}
+
+header ul.menu li a.nav-link:hover {
+  color: #f50136;
+}
+
+header ul.menu .search_btn {
+  padding: 16px 8px !important;
+  color: #ffffff;
+}
+
+header ul.menu .search_btn a {
+  font-size: 30px;
+}
+
+header li ul {
+  display: none;
+  visibility: hidden;
+}
+
+header li ul.sub_menu {
+  position: absolute;
+  background: #333333;
+  min-width: 250px;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 42px rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 1px 42px rgba(0, 0, 0, 0.08);
+}
+
+header li ul.sub_menu li {
+  display: block;
+}
+
+header li ul.sub_menu li a {
+  color: #999999 !important;
+  padding: 7px 10px;
+  display: block;
+  margin-left: 0;
+  line-height: 22px;
+  word-break: break-word;
+}
+
+header ul.menu li a.nav-link:hover {
+  color: #f50136;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+header li ul.sub_menu li a:hover {
+  color: #ffffff !important;
+  transform: translate3d(2px, 0, 0);
+  -webkit-transform: translate3d(2px, 0, 0);
+}
+
+header.sticky_header {
+  background-color: #18181c;
+  margin: 0;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.navbar-toggler {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 22px;
+  outline: 0 !important;
+  -webkit-box-shadow: 0 0 0 !important;
+  box-shadow: 0 0 0 !important;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media (min-width: 767px) {
+  header li:hover>ul {
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    background-color: #18181c;
+    margin: 0;
+    -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+
+  header .container {
+    padding: 15px !important;
+  }
+
+  header li>ul {
+    position: static;
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1023px) and (max-width:1200px) {
+  header .container {
+    margin-top: 2%;
+  }
+}
+
+::-webkit-scrollbar-track {
+
+  background: 0 0
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  background: #888
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #555
+}

@@ -4,3 +4,5 @@ It's currently the biggest technical fest of Jammu and Kashmir.
 
 Contributing:
 You are welcome to contribute to the project.
+
+Website is hosted here: [Titiksha 2020](https://shoaibin.github.io/titiksha2020/index.html)

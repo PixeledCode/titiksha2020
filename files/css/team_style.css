@@ -98,6 +98,7 @@ body {
 }
 
 #team {
+  min-height: 100vh;
   padding: 60px 0;
   background: -webkit-gradient(linear, left bottom, right top, from(#29323c), to(#485563));
   background: -webkit-linear-gradient(bottom left, #29323c 0%, #485563 100%);

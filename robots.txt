@@ -1,3 +1,2 @@
-Sitemap: https://titiksha.tech/sitemap.xml
 User-agent: *
 Disallow:
